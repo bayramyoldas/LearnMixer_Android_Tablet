@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/welcome"
+        android:id="@+id/welcome"
+        android:layout_gravity="center_horizontal"
+        android:clickable="false"
+        android:editable="false"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/welcome_desc"
+        android:padding="19dp"
+        android:id="@+id/textView"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:typeface="serif"
+        android:autoText="false" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/math"
+        android:id="@+id/btn_math"
+        android:layout_gravity="center_horizontal"
+        android:onClick="courseContent"
+        android:layout_weight="0.20"
+        android:background="#D9E3F2"
+        android:layout_marginBottom="5dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/english"
+        android:id="@+id/btn_eng"
+        android:layout_gravity="right"
+        android:onClick="courseContent"
+        android:layout_weight="0.20"
+        android:background="#EAEFF8"
+        android:layout_marginBottom="5dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/art"
+        android:id="@+id/btn_art"
+        android:layout_gravity="right"
+        android:onClick="courseContent"
+        android:layout_weight="0.20"
+        android:background="#D9E3F2"
+        android:layout_marginBottom="5dp" />
+</RelativeLayout>

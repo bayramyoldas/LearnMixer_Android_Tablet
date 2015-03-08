@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LearnMixer for Android Tablet</string>
+
+    <string name="welcome">Welcome to LearnMix!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_course_content">CourseContentActivity</string>
+    <string name="welcome_desc">Please Select a Course to View It\'s Content</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="art">ART</string>
+    <string name="english">ENGLISH</string>
+    <string name="math">MATHEMATICS</string>
+</resources>
